@@ -159,7 +159,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-		border-bottom: dotted 1px;
+		border-bottom: dotted 0px;
 		text-decoration: none;
 	}
 
@@ -3443,8 +3443,8 @@ input, select, textarea {
 			-ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
 			transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
 			pointer-events: auto;
-			border-style: solid;
-			border-color: #ffffff41;
+			border-style: none;
+			border-color: #ffffff00;
 			border-width: 0px !important;
 			font-family: "Source Sans Pro", Helvetica, sans-serif;
 			font-size: 2.25rem;
@@ -4963,7 +4963,7 @@ input, select, textarea {
 		background-color: #58ad6c00;
 		width: 28.9%;
 		height: 50%;
-	  }
+	  } 
 
 	.tab button_new {
 		display: block;
@@ -5211,6 +5211,101 @@ input, select, textarea {
 		width: 91.5%;
 	}
 	
+
+}
+
+
+@media screen and (max-width: 425px) {
+
+	#block .box {
+		font-size: 0.7rem;
+		padding: 1.2rem;
+		margin: -1.6rem;
+		margin-top: 1rem
+	}
+
+	.tab {
+		float:left;
+		background-color: #58ad6c00;
+		width:35.6%;
+		height: 50%;
+	  }
+	
+	  .tabcontent {
+		width: 63.6%;
+		height: 85.5%;
+		overflow: scroll;
+	  }
+
+	  .tabcontent p {
+		font-size: 0.6rem;
+	  }
+
+	  .tabcontent h2 {
+		margin-top: -2rem
+	  }
+
+	  .tabcontent iframe {
+		display: none;
+	  }
+
+	.tab button_new {
+		display: block;
+		padding: 20.5px 56px 20.44px 30px;
+		width: 250%;
+		margin-left: -58%;
+	
+	  }
+	  
+	  .tab button_new:hover .info_2{
+		  font-size: 9px;
+		}
+	
+		.tab button_new.active .info_2{
+			font-size: 9px;
+		  }
+
+	
+	.tab button_new span {
+		font-size: 0.6rem;
+	}
+
+	.tab button_new {
+		font-size: 0.8rem;
+	}
+
+	#block.bottom {
+		background-color: #ffffff00;
+		width: 91.5%;
+		margin-bottom: -14rem
+	}
+
+	span.info_1,
+	span.info_1 + br {
+	  display: none;
+	}
+
+
+	#header {
+		margin-top: 30px;
+		margin-bottom: 25px;
+		padding-left: 17px;
+		padding-right: 17px;
+	}
+
+	#header h3 {
+		font-size: 0.9rem;
+	}
+
+	.post header.major {
+		font-size: 0.4rem
+	}
+
+	iframe {
+		height: 20rem
+	}
+	
+		
 
 }
 
