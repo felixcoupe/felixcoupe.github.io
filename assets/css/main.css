@@ -4957,6 +4957,24 @@ input, select, textarea {
 	background-color: #ffffff;
 }
 
+@media screen and (max-width: 4000px) {
+	#block .blender{
+		padding-top: 6.4rem;
+	}
+
+	#block .modelling{
+		padding-top: 2.8rem;
+	}
+
+	#block .capital_greenspace{
+		padding-top: 7rem;
+	}
+
+	#block .msc_dis{
+		padding-top: 6rem;
+	}
+}
+
 @media screen and (max-width: 2200px) {
 	.tab {
 		float:left;
