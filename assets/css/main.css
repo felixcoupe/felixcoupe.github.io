@@ -5179,7 +5179,7 @@ input, select, textarea {
 	}
 
 	#block.bottom {
-		background-color: #ff0000;
+		background-color: #ffffff;
 	}
 
 	.tabcontent {
@@ -5452,7 +5452,7 @@ input, select, textarea {
 	  }
 
 	  .tabcontent p {
-		font-size: 0.7rem;
+		font-size: 0.8rem;
 		margin-left: -1.5rem;
 		margin-right: -1.5rem;
 	  }
@@ -5590,6 +5590,8 @@ input, select, textarea {
 
 	  .tabcontent p {
 		font-size: 0.75rem;
+		padding-left: 2.6rem !important;
+		padding-right: 2.5rem !important;
 	  }
 
 	  .tabcontent h2 {
@@ -5670,6 +5672,10 @@ input, select, textarea {
 		margin-bottom: -4rem !important;
 	}
 
+	#block .prof_journey {
+		margin-bottom: 1rem;
+	}
+
 }
 
 
@@ -5700,6 +5706,8 @@ input, select, textarea {
 
 	  .tabcontent p {
 		font-size: 0.6rem;
+		padding-left: 1.8rem !important;
+		padding-right: 1.8rem !important;
 	  }
 
 	  .tabcontent h2 {
@@ -5738,8 +5746,8 @@ input, select, textarea {
 	#block.bottom {
 		background-color: #ffffff;
 		width: 89.8%;
-		margin-bottom: -3rem;
-		height: 4rem
+		margin-bottom: -3.9rem;
+		height: 5rem
 	}
 
 	span.info_1,
@@ -5807,6 +5815,10 @@ input, select, textarea {
 		margin-bottom: -4rem !important;
 	}
 
+	#block .prof_journey {
+		margin-bottom: 1.2rem;
+	}
+
 }
 
 
@@ -5836,6 +5848,8 @@ input, select, textarea {
 
 	  .tabcontent p {
 		font-size: 0.6rem;
+		padding-left: 1.5rem !important;
+		padding-right: 1.4rem !important;
 	  }
 
 	  .tabcontent h2 {
@@ -5874,7 +5888,7 @@ input, select, textarea {
 	#block.bottom {
 		background-color: #ffffff;
 		width: 100%;
-		margin-bottom: -11.7rem;
+		margin-bottom: -4.7rem;
 		height: 4.2rem
 	}
 
@@ -5946,6 +5960,10 @@ input, select, textarea {
 	#block .headline{
 		font-size: 0.8rem;
 	}
+
+	#block .prof_journey {
+		margin-bottom: 0.8rem;
+	}
 	
 		
 
@@ -5979,6 +5997,8 @@ input, select, textarea {
 
 	  .tabcontent p {
 		font-size: 0.6rem;
+		padding-left: 1.5rem !important;
+		padding-right: 1.5rem !important;
 	  }
 
 	  .tabcontent h2 {
@@ -6079,6 +6099,10 @@ input, select, textarea {
 	#block .headline{
 		font-size: 0.8rem;
 	}
+
+	#block .prof_journey {
+		margin-bottom: 0.9rem;
+	}
 	
 		
 
@@ -6113,6 +6137,8 @@ input, select, textarea {
 
 	  .tabcontent p {
 		font-size: 0.67rem;
+		padding-left: 1.4rem !important;
+		padding-right: 1.3rem !important;
 	  }
 
 	  .tabcontent h2 {
@@ -6201,6 +6227,10 @@ input, select, textarea {
 
 	#block .Montreal_dsm{
 		margin-top: 3px !important;
+	}
+
+	#block .prof_journey {
+		margin-bottom: 1rem
 	}
 	
 		
