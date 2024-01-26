@@ -5179,7 +5179,7 @@ input, select, textarea {
 	}
 
 	#block.bottom {
-		background-color: #fbfbfb;
+		background-color: #ff0000;
 	}
 
 	.tabcontent {
@@ -5242,7 +5242,8 @@ input, select, textarea {
 	  }
 	
 	  #block .blender{
-		padding-top: 2.5rem;
+		padding-top: 2.75rem;
+		padding-bottom: 1rem;
 	}
 
 	#block .modelling{
@@ -5398,6 +5399,38 @@ input, select, textarea {
 		margin-bottom: -3rem
 	}
 
+	#block .prof_journey {
+		margin-bottom: -4rem;
+	}
+
+	.hobbies {
+		width: 100%;
+		padding-right: 0% !important;
+		padding-left: 0% !important;
+	}
+
+	.hobby_page p {
+		font-size: 0.9rem;
+	}
+
+	#block .intro{
+		margin-top: -24px !important;
+		margin-bottom: -4rem !important;
+	}
+
+	#block .headline{
+		font-size: 0.8rem;
+	}
+	
+	#block .greenspace_iframe{
+		margin-bottom: -1rem !important;
+	}
+
+	#block .blender{
+		padding-top: 0rem;
+		margin-bottom: 1rem
+	}
+
 	
 
 }
@@ -5420,6 +5453,8 @@ input, select, textarea {
 
 	  .tabcontent p {
 		font-size: 0.7rem;
+		margin-left: -1.5rem;
+		margin-right: -1.5rem;
 	  }
 
 	  .tabcontent h2 {
@@ -5452,8 +5487,9 @@ input, select, textarea {
 
 	#block.bottom {
 		background-color: #ffffff;
-		width: 92%;
+		width: 92.3%;
 		margin-bottom: -3rem;
+		height: 7rem
 	}
 
 	iframe {
@@ -5498,6 +5534,39 @@ input, select, textarea {
 
 	#block .quebec_render{
 		margin-top: -10px !important;
+	}
+
+	#block .prof_journey {
+		margin-bottom: -3rem;
+		margin-top: -4rem !important;
+	}
+
+	.hobbies {
+		width: 100%;
+		padding-right: 0% !important;
+		padding-left: 0% !important;
+	}
+
+	.hobby_page p {
+		font-size: 0.9rem;
+	}
+
+	#block .intro{
+		margin-top: 1px !important;
+		margin-bottom: -3rem;
+	}
+
+	#block .headline{
+		font-size: 0.8rem;
+	}
+	
+	#block .greenspace_iframe{
+		margin-bottom: -2rem !important;
+	}
+
+	#block .blender{
+		padding-top: 0rem;
+		margin-bottom: -3.6rem
 	}
 
 }
@@ -5559,6 +5628,7 @@ input, select, textarea {
 
 	#block .blender{
 		padding-top: 2rem;
+		margin-bottom: -3.6rem
 	}
 
 	#block .capital_greenspace{
@@ -5571,6 +5641,33 @@ input, select, textarea {
 
 	#block .Montreal_dsm{
 		margin-top: 3px !important;
+	}
+
+	#block .prof_journey {
+		margin-top: -0.5rem !important;
+	}
+
+	.hobbies {
+		width: 100%;
+		padding-right: 0% !important;
+		padding-left: 0% !important;
+	}
+
+	.hobby_page p {
+		font-size: 0.9rem;
+	}
+
+	#block .intro{
+		margin-top: 1px !important;
+		margin-bottom: -3rem;
+	}
+
+	#block .headline{
+		font-size: 0.8rem;
+	}
+	
+	#block .greenspace_iframe{
+		margin-bottom: -4rem !important;
 	}
 
 }
@@ -5672,10 +5769,11 @@ input, select, textarea {
 
 	#block .blender{
 		padding-top: 2rem;
+		margin-bottom: -3rem
 	}
 
 	#block .capital_greenspace{
-		padding-top: 4rem;
+		padding-top: 3rem;
 	}
 
 	#block .quebec_render{
@@ -5686,7 +5784,28 @@ input, select, textarea {
 		margin-top: 3px !important;
 	}
 	
-		
+	.hobbies {
+		width: 96%;
+		padding-right: 0% !important;
+		padding-left: 4% !important;
+	}
+
+	.hobby_page p {
+		font-size: 0.9rem;
+	}
+
+	#block .intro{
+		margin-top: 1px !important;
+		margin-bottom: -3rem;
+	}
+
+	#block .headline{
+		font-size: 0.8rem;
+	}
+	
+	#block .greenspace_iframe{
+		margin-bottom: -4rem !important;
+	}
 
 }
 
@@ -5711,7 +5830,7 @@ input, select, textarea {
 	
 	  .tabcontent {
 		width: 63.6%;
-		height: 85.5%;
+		height: 88.6%;
 		overflow: scroll;
 	  }
 
@@ -5729,7 +5848,7 @@ input, select, textarea {
 
 	.tab button_new {
 		display: block;
-		padding: 18.3px 56px 18px 30px;
+		padding: 18.8px 56px 18.5px 30px;
 		width: 195%;
 		margin-left: -50%;
 	
@@ -5753,9 +5872,10 @@ input, select, textarea {
 	}
 
 	#block.bottom {
-		background-color: #ff000000;
-		width: 91.5%;
-		margin-bottom: -14rem
+		background-color: #ffffff;
+		width: 100%;
+		margin-bottom: -11.7rem;
+		height: 4.2rem
 	}
 
 	span.info_1,
@@ -5785,10 +5905,15 @@ input, select, textarea {
 
 	#block .blender{
 		padding-top: 2rem;
+		margin-bottom: -3.6rem
 	}
 
 	#block .capital_greenspace{
-		padding-top: 4rem;
+		padding-top: 3rem;
+	}
+
+	#block .greenspace_iframe{
+		margin-bottom: -4rem !important;
 	}
 
 	#block .quebec_render{
@@ -5797,6 +5922,29 @@ input, select, textarea {
 
 	#block .Montreal_dsm{
 		margin-top: 3px !important;
+	}
+
+	#nav .nav_bottom_prof {
+		margin-bottom: -2rem;
+	}
+
+	.hobbies {
+		width: 100%;
+		padding-right: 0% !important;
+		padding-left: 0% !important;
+	}
+
+	.hobby_page p {
+		font-size: 0.9rem;
+	}
+
+	#block .intro{
+		margin-top: 1px !important;
+		margin-bottom: -3rem;
+	}
+
+	#block .headline{
+		font-size: 0.8rem;
 	}
 	
 		
@@ -5825,7 +5973,7 @@ input, select, textarea {
 	
 	  .tabcontent {
 		width: 63.6%;
-		height: 85.5%;
+		height: 88.5%;
 		overflow: scroll;
 	  }
 
@@ -5843,7 +5991,7 @@ input, select, textarea {
 
 	.tab button_new {
 		display: block;
-		padding: 20.5px 56px 20.44px 30px;
+		padding: 20.9px 56px 20.9px 30px;
 		width: 250%;
 		margin-left: -58%;
 	
@@ -5867,16 +6015,15 @@ input, select, textarea {
 	}
 
 	#block.bottom {
-		background-color: #fd000000;
-		width: 91.5%;
-		margin-bottom: -14rem
+		background-color: #ffffff;
+		width: 100%;
+		margin-bottom: -12.4rem
 	}
 
 	span.info_1,
 	span.info_1 + br {
 	  display: none;
 	}
-
 
 	#header {
 		margin-top: 30px;
@@ -5899,6 +6046,7 @@ input, select, textarea {
 
 	#block .blender{
 		padding-top: 2rem;
+		margin-bottom: -4rem
 	}
 
 	#block .capital_greenspace{
@@ -5911,6 +6059,25 @@ input, select, textarea {
 
 	#block .Montreal_dsm{
 		margin-top: 3px !important;
+	}
+
+	.hobbies {
+		width: 100%;
+		padding-right: 0% !important;
+		padding-left: 0% !important;
+	}
+
+	.hobby_page p {
+		font-size: 0.9rem;
+	}
+
+	#block .intro{
+		margin-top: 1px !important;
+		margin-bottom: -3rem;
+	}
+
+	#block .headline{
+		font-size: 0.8rem;
 	}
 	
 		
@@ -5940,12 +6107,12 @@ input, select, textarea {
 	
 	  .tabcontent {
 		width: 60%;
-		height: 78.7%;
+		height: 86.7%;
 		overflow: scroll;
 	  }
 
 	  .tabcontent p {
-		font-size: 0.6rem;
+		font-size: 0.67rem;
 	  }
 
 	  .tabcontent h2 {
@@ -5964,7 +6131,7 @@ input, select, textarea {
 
 	.tab button_new {
 		display: block;
-		padding: 17.4px 56px 17.8px 30px;
+		padding: 21.2px 56px 20.8px 30px;
 		width: 250%;
 		margin-left: -58%;
 	
@@ -5988,9 +6155,11 @@ input, select, textarea {
 	}
 
 	#block.bottom {
-		background-color: #f9000000;
-		width: 91.5%;
-		margin-bottom: -14rem
+		background-color: #ffffff;
+		width: 100%;
+		margin-bottom: -13rem;
+		margin-top: -100rem;
+		height: 5rem
 	}
 
 	span.info_1,
