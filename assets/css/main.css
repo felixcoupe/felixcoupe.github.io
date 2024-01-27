@@ -3222,7 +3222,7 @@ input, select, textarea {
 
 			#intro a:hover {
 				border-bottom-color: transparent;
-				color: rgb(255, 183, 110) !important;
+				color: rgb(238, 172, 106) !important;
 			}
 
 		#intro strong, #intro b {
@@ -3610,7 +3610,7 @@ input, select, textarea {
 					}
 
 						#nav ul.links li.active a:hover {
-							color: rgb(255, 183, 110) !important;
+							color: rgb(238, 172, 106) !important;
 						}
 
 		#nav ul.icons {
@@ -3634,6 +3634,15 @@ input, select, textarea {
 		}
 
 /* Block */
+
+strong {
+	border-bottom-color: transparent;
+	color: rgb(0, 0, 0) !important;
+}
+strong:hover {
+	border-bottom-color: transparent;
+	color: rgb(238, 172, 106) !important;
+}
 
 #block {
 	background-color: #ffffff;
@@ -4535,7 +4544,7 @@ input, select, textarea {
 
 			#copyright a:hover {
 				border-bottom-color: transparent;
-				color: rgb(255, 183, 110) !important;
+				color: rgb(238, 172, 106) !important;
 			}
 
 		#copyright strong, #copyright b {
@@ -5108,6 +5117,53 @@ input, select, textarea {
 
 }
 
+@media screen and (max-width: 1680px) {
+
+	.tab button_new {
+		display: block;
+		padding: 21.7px 16px;
+		width: 173%;
+		margin-left: -35.7%;
+	  }
+
+	  #block.bottom {
+		background-color: #ffffff;
+	}
+
+	.tabcontent {
+		overflow: scroll;
+		height: 100%
+	  }
+	
+	  .tab button_new {
+		display: block;
+		padding: 15.9px 16px;
+		width: 173%;
+		margin-left: -35.7%;
+	  }
+	
+	.tabcontent p {
+		font-size: 0.85rem;
+	}
+
+	#block .blender{
+		padding-top: 6.5rem;
+	}
+
+	#block .modelling{
+		padding-top: 2.8rem;
+	}
+
+	#block .capital_greenspace{
+		padding-top: 6rem;
+	}
+
+	#block .msc_dis{
+		padding-top: 5rem;
+	}
+
+}
+
 @media screen and (max-width: 1620px) {
 	.tab {
 		float:left;
@@ -5159,6 +5215,7 @@ input, select, textarea {
 
 }
 
+
 @media screen and (max-width: 1440px) {
 	.tab {
 		float:left;
@@ -5208,6 +5265,57 @@ input, select, textarea {
 
 }
 
+@media screen and (max-width: 1280px) {
+	.tab {
+		float:left;
+		background-color: #58ad6c00;
+		width: 28.9%;
+		height: 50%;
+	  }
+
+	.tab button_new {
+		display: block;
+		padding: 14.5px 16px;
+		width: 173%;
+		margin-left: -35.7%;
+	  }
+	
+	.tab button_new span {
+		font-size: 0.7rem;
+	}
+
+	#block.bottom {
+		background-color: #ffffff;
+		width: 94.5%;
+	}
+
+	.tabcontent {
+		overflow: scroll;
+	  }
+
+	  .tabcontent p {
+		font-size: 0.9rem;
+	  }
+	
+	  #block .blender{
+		padding-top: 2.75rem;
+		padding-bottom: 1rem;
+	}
+
+	#block .modelling{
+		padding-top: 5rem;
+	}
+
+	#block .capital_greenspace{
+		padding-top: 9rem;
+	}
+
+	#block .msc_dis{
+		padding-top: 6rem;
+	}
+	
+
+}
 
 @media screen and (max-width: 1200px) {
 	.tab {
@@ -5335,7 +5443,80 @@ input, select, textarea {
 		font-size: 0.9rem;
 	  }
 
+}
+
+@media screen and (max-width: 1000px) {
+	.tab {
+		float:left;
+		background-color: #58ad6c00;
+		width: 32%;
+		height: 50%;
+	  }
 	
+	  .tabcontent {
+		width: 66.5%;
+		overflow: scroll;
+	  }
+
+	.tab button_new {
+		display: block;
+		padding: 14.2px 16px;
+		width: 175%;
+		margin-left: -36%;
+	  }
+	
+	.tab button_new span {
+		font-size: 0.7rem;
+	}
+
+	.nav_bottom_prof {
+		width: 94.5% !important;
+	}
+
+	.nav_bottom_edu {
+		width: 94.5% !important;
+	}
+
+	#block .blender{
+		padding-top: 2.5rem;
+	}
+
+	#block .modelling{
+		padding-top: 5rem;
+	}
+
+	#block .capital_greenspace{
+		padding-top: 9rem;
+	}
+
+	#block .msc_dis{
+		padding-top: 6rem;
+	}
+
+	#block .quebec_render{
+		margin-top: -50px !important;
+	}
+
+	#block .Montreal_dsm{
+		margin-top: 3px !important;
+	}
+
+	#block .arthurs_seat{
+		margin-top: 0px !important;
+	}
+
+	iframe {
+		height: 26rem;
+	}
+
+	#block.bottom {
+		background-color: #ffffff;
+		width: 94%;
+	}
+
+	.tabcontent p {
+		font-size: 0.9rem;
+	  }
 
 }
 
@@ -5393,7 +5574,7 @@ input, select, textarea {
 	}
 
 	#block.bottom {
-		background-color: #fffffffe;
+		background-color: #ffffff;
 		width: 93.5%;
 		height: 10rem;
 		margin-bottom: -3rem
@@ -5432,6 +5613,135 @@ input, select, textarea {
 	}
 
 	
+
+}
+
+@media screen and (max-width: 870px) {
+	.tab {
+		float:left;
+		background-color: #58ad6c00;
+		width: 37%;
+		height: 50%;
+	  }
+	
+	  .tabcontent {
+		width: 61.5%;
+		overflow: scroll;
+	  }
+	
+	  .tabcontent p {
+		font-size: 0.85rem;
+		margin-left: -1.5rem;
+		margin-right: -1.5rem;
+	  }
+
+	.tab button_new {
+		display: block;
+		padding: 13.9px 16px;
+		width: 173%;
+		margin-left: -35.7%;
+	  }
+	
+	.tab button_new span {
+		font-size: 0.7rem;
+	}
+
+	#block .blender{
+		padding-top: 0rem;
+	}
+
+	#block.bottom {
+		background-color: #ffffff;
+		width: 93.1%;
+		height: 10rem;
+		margin-bottom: -3rem
+	}
+
+}
+
+@media screen and (max-width: 840px) {
+	.tab {
+		float:left;
+		background-color: #58ad6c00;
+		width: 38%;
+		height: 50%;
+	  }
+	
+	  .tabcontent {
+		width: 60.5%;
+		overflow: scroll;
+	  }
+	
+	  .tabcontent p {
+		font-size: 0.85rem;
+		margin-left: -1.5rem;
+		margin-right: -1.5rem;
+	  }
+
+	.tab button_new {
+		display: block;
+		padding: 13.9px 16px;
+		width: 173%;
+		margin-left: -35.7%;
+	  }
+	
+	.tab button_new span {
+		font-size: 0.7rem;
+	}
+
+	#block .blender{
+		padding-top: 0rem;
+	}
+
+	#block.bottom {
+		background-color: #ffffff;
+		width: 93%;
+		height: 10rem;
+		margin-bottom: -3rem
+	}
+
+}
+
+@media screen and (max-width: 800px) {
+	.tab {
+		float:left;
+		background-color: #58ad6c00;
+		width: 40%;
+		height: 50%;
+	  }
+	
+	  .tabcontent {
+		width: 58.5%;
+		overflow: scroll;
+	  }
+	
+	  .tabcontent p {
+		font-size: 0.85rem;
+		margin-left: -1.5rem;
+		margin-right: -1.5rem;
+	  }
+
+	.tab button_new {
+		display: block;
+		padding: 13.7px 16px;
+		width: 173%;
+		margin-left: -35.7%;
+	  }
+	
+	.tab button_new span {
+		font-size: 0.7rem;
+	}
+
+	#block .blender{
+		padding-top: 0rem;
+	}
+
+	#block.bottom {
+		background-color: #ffffff;
+		width: 92.5%;
+		height: 10rem;
+		margin-bottom: -3rem
+	}
 
 }
 
@@ -5676,6 +5986,110 @@ input, select, textarea {
 		margin-bottom: 1rem;
 	}
 
+}
+
+
+@media screen and (max-width: 640px) {
+	.tab {
+		float:left;
+		background-color: #58ad6c00;
+		width: 26.2%;
+		height: 50%;
+	  }
+	
+	  .tabcontent {
+		width: 72.3%;
+		height: 94%;
+		overflow: scroll;
+	  }
+
+	  .tabcontent p {
+		font-size: 0.75rem;
+		padding-left: 2.6rem !important;
+		padding-right: 2.5rem !important;
+	  }
+
+	  .tabcontent h2 {
+		margin-top: -2rem
+	  }
+
+	.tab button_new {
+		display: block;
+		padding: 10.5px 16px;
+		width: 173%;
+		margin-left: -36%;
+	  }
+	  
+	  .tab button_new:hover .info_2{
+		  font-size: 11px;
+		}
+	
+		.tab button_new.active .info_2{
+			font-size: 11px;
+		  }
+
+	
+	.tab button_new span {
+		font-size: 0.6rem;
+	}
+
+	.tab button_new {
+		font-size: 0.8rem;
+	}
+
+	#block.bottom {
+		background-color: #fffffffe;
+		width: 90.7%;
+		height: 5rem
+	}
+
+	#block .blender{
+		padding-top: 2rem;
+		margin-bottom: -3.6rem
+	}
+
+	#block .capital_greenspace{
+		padding-top: 4rem;
+	}
+
+	#block .quebec_render{
+		margin-top: 5px !important;
+	}
+
+	#block .Montreal_dsm{
+		margin-top: 3px !important;
+	}
+
+	#block .prof_journey {
+		margin-top: -0.5rem !important;
+	}
+
+	.hobbies {
+		width: 100%;
+		padding-right: 0% !important;
+		padding-left: 0% !important;
+	}
+
+	.hobby_page p {
+		font-size: 0.9rem;
+	}
+
+	#block .intro{
+		margin-top: 1px !important;
+		margin-bottom: -3rem;
+	}
+
+	#block .headline{
+		font-size: 0.8rem;
+	}
+	
+	#block .greenspace_iframe{
+		margin-bottom: -4rem !important;
+	}
+
+	#block .prof_journey {
+		margin-bottom: 1rem;
+	}
 }
 
 
@@ -5963,9 +6377,152 @@ input, select, textarea {
 
 	#block .prof_journey {
 		margin-bottom: 0.8rem;
+	}	
+
+}
+
+
+
+@media screen and (max-width: 450px) {
+
+	#block .box {
+		font-size: 0.7rem;
+		padding: 1.2rem;
+		margin: -1.6rem;
+		margin-top: 1rem
 	}
+
+	.tab {
+		float:left;
+		background-color: #58ad6c00;
+		width:34.2%;
+		height: 50%;
+	  }
 	
-		
+	  .tabcontent {
+		width: 63.6%;
+		height: 88.6%;
+		overflow: scroll;
+	  }
+
+	  .tabcontent p {
+		font-size: 0.75rem;
+		padding-left: 1.5rem !important;
+		padding-right: 1.4rem !important;
+	  }
+
+	  .tabcontent h2 {
+		margin-top: -2rem
+	  }
+
+	  .tabcontent iframe {
+		display: none;
+	  }
+
+	.tab button_new {
+		display: block;
+		padding: 21.5px 13px 21px 25px;
+		width: 215%;
+		margin-left: -50%;
+	
+	  }
+	  
+	  .tab button_new:hover .info_2{
+		  font-size: 9px;
+		}
+	
+		.tab button_new.active .info_2{
+			font-size: 9px;
+		  }
+
+	
+	.tab button_new span {
+		font-size: 0.6rem;
+	}
+
+	.tab button_new {
+		font-size: 0.8rem;
+	}
+
+	#block.bottom {
+		background-color: #ff0000;
+		width: 100%;
+		margin-bottom: -4.7rem;
+		height: 4.2rem
+	}
+
+	span.info_1,
+	span.info_1 + br {
+	  display: none;
+	}
+
+
+	#header {
+		margin-top: 30px;
+		margin-bottom: 25px;
+		padding-left: 17px;
+		padding-right: 17px;
+	}
+
+	#header h3 {
+		font-size: 0.9rem;
+	}
+
+	.post header.major {
+		font-size: 0.4rem
+	}
+
+	iframe {
+		height: 20rem
+	}
+
+	#block .blender{
+		padding-top: 2rem;
+		margin-bottom: -3.6rem
+	}
+
+	#block .capital_greenspace{
+		padding-top: 3rem;
+	}
+
+	#block .greenspace_iframe{
+		margin-bottom: -4rem !important;
+	}
+
+	#block .quebec_render{
+		margin-top: 5px !important;
+	}
+
+	#block .Montreal_dsm{
+		margin-top: 3px !important;
+	}
+
+	#nav .nav_bottom_prof {
+		margin-bottom: -2rem;
+	}
+
+	.hobbies {
+		width: 100%;
+		padding-right: 0% !important;
+		padding-left: 0% !important;
+	}
+
+	.hobby_page p {
+		font-size: 0.9rem;
+	}
+
+	#block .intro{
+		margin-top: 1px !important;
+		margin-bottom: -3rem;
+	}
+
+	#block .headline{
+		font-size: 0.8rem;
+	}
+
+	#block .prof_journey {
+		margin-bottom: 0.8rem;
+	}	
 
 }
 
@@ -6289,4 +6846,24 @@ input, select, textarea {
 	#wrapper > .bg {
 		background-size: auto,								auto,														300% auto;
 	}
+}
+
+
+
+
+
+
+
+
+
+
+.allicon {
+	padding-left: 0.8rem;
+	padding-right: 0.3rem;
+	scale: 120%
+}
+
+.fa-linkedin {
+	margin-right: -0.6rem;
+	scale: 120%;
 }
