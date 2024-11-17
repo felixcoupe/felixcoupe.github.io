@@ -3222,7 +3222,7 @@ input, select, textarea {
 
 			#intro a:hover {
 				border-bottom-color: transparent;
-				color: rgb(255, 183, 110) !important;
+				color: rgb(238, 172, 106) !important;
 			}
 
 		#intro strong, #intro b {
@@ -3610,7 +3610,7 @@ input, select, textarea {
 					}
 
 						#nav ul.links li.active a:hover {
-							color: rgb(255, 183, 110) !important;
+							color: rgb(238, 172, 106) !important;
 						}
 
 		#nav ul.icons {
@@ -3634,6 +3634,15 @@ input, select, textarea {
 		}
 
 /* Block */
+
+strong {
+	border-bottom-color: transparent;
+	color: rgb(0, 0, 0) !important;
+}
+strong:hover {
+	border-bottom-color: transparent;
+	color: rgb(238, 172, 106) !important;
+}
 
 #block {
 	background-color: #ffffff;
@@ -4535,7 +4544,7 @@ input, select, textarea {
 
 			#copyright a:hover {
 				border-bottom-color: transparent;
-				color: rgb(255, 183, 110) !important;
+				color: rgb(238, 172, 106) !important;
 			}
 
 		#copyright strong, #copyright b {
@@ -4885,7 +4894,7 @@ input, select, textarea {
 }
 
 .tab button_new:hover .info_2{
-	font-size: 17px;
+	font-size: 15px;
 	color: #ffffff;
   }
 
@@ -4897,7 +4906,7 @@ input, select, textarea {
 	color: #ffffff;
   }
 .tab button_new.active .info_2{
-	font-size: 17px;
+	font-size: 15px;
 	color: #ffffff;
   }
 
@@ -6837,4 +6846,24 @@ input, select, textarea {
 	#wrapper > .bg {
 		background-size: auto,								auto,														300% auto;
 	}
+}
+
+
+
+
+
+
+
+
+
+
+.allicon {
+	padding-left: 0.8rem;
+	padding-right: 0.3rem;
+	scale: 120%
+}
+
+.fa-linkedin {
+	margin-right: -0.6rem;
+	scale: 120%;
 }
