@@ -6874,3 +6874,37 @@ strong:hover {
 		height: 50.7rem !important;
 	}
 }
+
+/* Home page: the intro fills the first screen, so the nav and content start just below the fold.
+   The extra 4rem offsets the nav's -4rem top margin so it stays out of view until you scroll. */
+body.intro_page #intro {
+	min-height: calc(100vh + 4rem);
+	min-height: calc(100svh + 4rem);
+	padding: 4rem 2rem 8rem 2rem;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+}
+
+@media screen and (max-width: 736px) {
+	body.intro_page #intro .actions {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+	}
+
+	/* Keep the round arrow button instead of the template's full-width stacked button */
+	body.intro_page #intro ul.actions li {
+		width: auto;
+	}
+
+	body.intro_page #intro ul.actions li > .button.icon.solo {
+		width: 4rem;
+	}
+
+	body.intro_page #intro ul.actions li > .button.icon.solo:before {
+		margin-left: 0;
+	}
+}
