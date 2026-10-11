@@ -6867,3 +6867,10 @@ strong:hover {
 	margin-right: -0.6rem;
 	scale: 120%;
 }
+
+/* Professional journey: extra room on small screens so the last job tab is not hidden */
+@media screen and (max-width: 736px) {
+	#block.journey_tabs {
+		height: 50.7rem !important;
+	}
+}
