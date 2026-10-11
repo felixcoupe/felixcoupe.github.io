@@ -6867,3 +6867,138 @@ strong:hover {
 	margin-right: -0.6rem;
 	scale: 120%;
 }
+
+/* Professional journey: extra room on small screens so the last job tab is not hidden */
+@media screen and (max-width: 736px) {
+	#block.journey_tabs {
+		height: 50.7rem !important;
+	}
+}
+
+/* Home page: the intro fills the first screen, so the nav and content start just below the fold.
+   The extra 4rem offsets the nav's -4rem top margin so it stays out of view until you scroll. */
+body.intro_page #intro {
+	min-height: calc(100vh + 4rem);
+	min-height: calc(100svh + 4rem);
+	padding: 4rem 2rem 8rem 2rem;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+}
+
+@media screen and (max-width: 736px) {
+	body.intro_page #intro .actions {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+	}
+
+	/* Keep the round arrow button instead of the template's full-width stacked button */
+	body.intro_page #intro ul.actions li {
+		width: auto;
+	}
+
+	body.intro_page #intro ul.actions li > .button.icon.solo {
+		width: 4rem;
+	}
+
+	body.intro_page #intro ul.actions li > .button.icon.solo:before {
+		margin-left: 0;
+	}
+}
+
+/* Orange dot pointer (see assets/js/cursor.js). Without the script, a static dot is used. */
+html {
+	cursor: url("../../images/cursors/orange-dot.svg") 16 16, url("../../images/cursors/orange-dot.png") 16 16, auto;
+}
+
+html.has-pointer, html.has-pointer * {
+	cursor: none !important;
+}
+
+#pointer {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 32px;
+	height: 32px;
+	pointer-events: none;
+	z-index: 2147483647;
+	display: none;
+}
+
+	#pointer.on {
+		display: block;
+	}
+
+	#pointer img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 32px;
+		height: 32px;
+		-moz-transition: -moz-transform 0.15s ease;
+		-webkit-transition: -webkit-transform 0.15s ease;
+		-ms-transition: -ms-transform 0.15s ease;
+		transition: transform 0.15s ease;
+	}
+
+	#pointer.down img {
+		-moz-transform: scale(0.8);
+		-webkit-transform: scale(0.8);
+		-ms-transform: scale(0.8);
+		transform: scale(0.8);
+	}
+
+	#pointer .ring {
+		position: absolute;
+		left: 16px;
+		top: 16px;
+		width: 48px;
+		height: 48px;
+		margin: -24px 0 0 -24px;
+		border: 2px solid rgb(238, 172, 106);
+		border-radius: 50%;
+		opacity: 0;
+	}
+
+	#pointer.hover .ring {
+		-moz-animation: pointer-sonar 1.6s ease-out infinite;
+		-webkit-animation: pointer-sonar 1.6s ease-out infinite;
+		-ms-animation: pointer-sonar 1.6s ease-out infinite;
+		animation: pointer-sonar 1.6s ease-out infinite;
+	}
+
+	#pointer.hover .ring.r2 {
+		-moz-animation-delay: 0.8s;
+		-webkit-animation-delay: 0.8s;
+		-ms-animation-delay: 0.8s;
+		animation-delay: 0.8s;
+	}
+
+@keyframes pointer-sonar {
+	from {
+		transform: scale(0.3);
+		opacity: 0.95;
+	}
+	to {
+		transform: scale(1.5);
+		opacity: 0;
+	}
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+	#pointer.hover .ring {
+		animation: none;
+		opacity: 0.9;
+		transform: scale(0.8);
+	}
+
+	#pointer.hover .ring.r2 {
+		opacity: 0;
+	}
+
+}

@@ -8,13 +8,12 @@
 	<head>
 		<title>Felix Coupe CV</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="icon" href="images/logo6.svg" type="image/x-icon">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" href="images/logo6.svg" type="image/svg+xml">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<body class="is-preload">
-		<div id="main">
+	<body class="is-preload intro_page">
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="fade-in">
@@ -23,9 +22,9 @@
 					<div id="intro">
 						<h1>Felix<br />
 						Coupe</h1>
-						<p>Analytics Engineer - Geospatial Professional - <a href="https://www.ecoonline.com/">Ecoonline</a></p>
+						<p>Senior Analytics Engineer - Geospatial Professional - <a href="https://www.ecoonline.com/">EcoOnline</a></p>
 						<ul class="actions">
-							<li><a href="#nav" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+							<li><a href="#nav" class="button icon solid solo fa-arrow-down" id="continue">Continue</a></li>
 						</ul>
 					</div>
 
@@ -38,15 +37,14 @@
 						</ul>
 						<ul class="icons">
 							<li><a href="https://www.linkedin.com/in/felix-coupe/" class="allicon icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="mailto:felixcoupe@googlemail.com" class="allicon fas fa-envelope"><span class="label"></span></a></li>
-							<li><a href="#" class="allicon fas fa-globe"><span class="label"></span></a></li>
+							<li><a href="mailto:felixcoupe@googlemail.com" class="allicon fas fa-envelope" aria-label="Email"><span class="label"></span></a></li>
 						</ul>
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
 
-						<div id=block>
+						<div id="block">
 
 							<!-- Introduction -->
 							<header class="major">
@@ -56,17 +54,17 @@
 									<header class="major">
 										<br>
 										<h3 class="current_role" style="color: rgb(238, 172, 106); margin-bottom: -0.15rem;">Current Role</h3>
-										<p>Analytics Engineer at <a href="https://www.ecoonline.com/">Ecoonline</a></p>
+										<p>Senior Analytics Engineer at <a href="https://www.ecoonline.com/">EcoOnline</a></p>
 										<br>
 										<h3 style="color: rgb(238, 172, 106); margin-bottom: -0.15rem;">Core Technical Skills</h3>
 										<p>Python • SQL • Bash • QGIS • R</p>
 										<br>
 										<h3 style="color: rgb(238, 172, 106);  margin-bottom: -0.15rem;">Education</h3>
-										<p>BSc Geography (First Class Honours)<br>
-										MSc GIS (Distinction)</p>
+										<p><span style="display: block;">BSc Geography (First Class Honours)</span>
+										<span style="display: block;">MSc GIS (Distinction)</span></p>
 
-										<p class="box headline" style="text-align: justify;">I am a highly motivated Geospatial Professional currently working in Research & Development as an Analytics Engineer 
-											at <a href="https://www.ecoonline.com/">Ecoonline</a>, creating global geospatial products that enable companies to adhere to ESG frameworks such as TCFD & CSRD.
+										<p class="box headline" style="text-align: justify;">I am a highly motivated Geospatial Professional currently working in Research & Development as a Senior Analytics Engineer 
+											at <a href="https://www.ecoonline.com/">EcoOnline</a>, creating global geospatial products that enable companies to adhere to ESG frameworks such as TCFD & CSRD.
 											I pride myself on my key values of hard work, reliability, and adaptability, flexibly working both independently and as a team. I am also a passionate 
 											advocate of how GIS can be used to enhance a plethora of industry domains. 
 											<br><br>
@@ -94,14 +92,15 @@
 					</ul>
 					<ul class="icons">
 						<li><a href="https://www.linkedin.com/in/felix-coupe/" class="allicon icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="mailto:felixcoupe@googlemail.com" class="allicon fas fa-envelope"><span class="label"></span></a></li>
-						<li><a href="#" class="allicon fas fa-globe"><span class="label"></span></a></li>
+						<li><a href="mailto:felixcoupe@googlemail.com" class="allicon fas fa-envelope" aria-label="Email"><span class="label"></span></a></li>
 					</ul>
 				</nav>
 
 				<!-- Copyright -->
 					<div id="copyright">
 						<ul><li>&copy; Felix Coupe</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
 					</div>
 
 			</div>
@@ -114,44 +113,15 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="assets/js/sticky_nav.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.min.js"></script>
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.fog.min.js"></script>
-			<!-- <script>
-			VANTA.FOG({
-			  el: "#wrapper .bg",
-			  mouseControls: true,
-			  touchControls: true,
-			  gyroControls: false,
-			  minHeight: 1.00,
-			  minWidth: 1.00,
-			  highlightColor: 0x799c79,
-			  midtoneColor: 0x49a451,
-			  lowlightColor: 0x288356,
-			  baseColor: 0x7300b,
-			  /*blurFactor: 0.86,*/
-			  blurFactor: 0.9,
-			  speed: 1,
-			  zoom: 1
-			})
-			</script>
+			<script src="assets/js/cursor.js"></script>
 			<script>
-				VANTA.FOG({
-				  el: "#block .tab",
-				  mouseControls: true,
-				  touchControls: true,
-				  gyroControls: false,
-				  minHeight: 1.00,
-				  minWidth: 1.00,
-				  highlightColor: 0x799c79,
-				  midtoneColor: 0x49a451,
-				  lowlightColor: 0x288356,
-				  baseColor: 0x7300b,
-				  /*blurFactor: 0.86,*/
-				  blurFactor: 0.9,
-				  speed: 1,
-				  zoom: 0.7
-				})
-				</script> -->
+				// Continue: scroll to the nav bar, or to the content on small screens where the nav moves into the Menu panel
+				document.getElementById("continue").addEventListener("click", function(e) {
+					e.preventDefault();
+					var nav = document.getElementById("nav");
+					var target = nav.offsetParent !== null ? nav : document.getElementById("main");
+					target.scrollIntoView({ behavior: "smooth" });
+				});
+			</script>
 	</body>
-</html>
+</html>
