@@ -8,7 +8,9 @@
 
 (function() {
 
-	if (!window.matchMedia || !window.matchMedia('(hover: hover) and (pointer: fine)').matches)
+	// Skip devices with no mouse or trackpad at all. Laptops with a touchscreen still
+	// qualify; touches on them are ignored per event below.
+	if (window.matchMedia && !window.matchMedia('(any-pointer: fine)').matches)
 		return;
 
 	var root = document.documentElement,
@@ -16,6 +18,9 @@
 		follower = document.createElement('div');
 
 	follower.id = 'pointer';
+	// Core positioning inline too, so the dot can't land in the page flow if an old
+	// cached copy of main.css is still in use.
+	follower.style.cssText = 'position:fixed;left:0;top:0;width:32px;height:32px;pointer-events:none;z-index:2147483647;';
 	follower.setAttribute('aria-hidden', 'true');
 	follower.innerHTML = '<span class="ring"></span><span class="ring r2"></span><img src="images/cursors/orange-dot.svg" alt="">';
 	document.body.appendChild(follower);
