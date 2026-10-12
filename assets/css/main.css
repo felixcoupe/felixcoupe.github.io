@@ -6876,7 +6876,6 @@ strong:hover {
 		height: auto !important;
 		margin: 0 !important;
 		padding: 0 !important;
-		background-color: #ffffff !important;
 	}
 
 	#block.journey_tabs .tab {
@@ -6884,12 +6883,12 @@ strong:hover {
 		width: auto !important;
 		height: auto;
 		margin: 0 !important;
-		padding: 0.25rem 1rem 1rem 1rem;
+		padding: 0;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		gap: 0.6rem;
+		gap: 0;
 		overflow-x: auto;
 		-webkit-overflow-scrolling: touch;
 		scroll-snap-type: x proximity;
@@ -6904,16 +6903,12 @@ strong:hover {
 		width: 10.5rem !important;
 		margin: 0 !important;
 		padding: 0.85rem 0.9rem !important;
-		border: 1px solid rgba(0, 0, 0, 0.18);
+		border: 0;
+		border-right: 1px solid rgba(0, 0, 0, 0.15);
 		font-size: 0.75rem;
 		line-height: 1.25;
 		white-space: normal;
 		scroll-snap-align: start;
-	}
-
-	#block.journey_tabs .tab button_new.active {
-		background-color: #232423 !important;
-		border-color: #232423;
 	}
 
 	#block.journey_tabs .tab button_new .info_2 {
