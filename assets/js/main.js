@@ -132,15 +132,25 @@
 				.appendTo($wrapper);
 
 			// Change toggle styling once we've scrolled past the header.
-				$header.scrollex({
-					bottom: '5vh',
-					enter: function() {
-						$navPanelToggle.removeClass('alt');
-					},
-					leave: function() {
-						$navPanelToggle.addClass('alt');
-					}
-				});
+				if ($header.length > 0)
+					$header.scrollex({
+						bottom: '5vh',
+						enter: function() {
+							$navPanelToggle.removeClass('alt');
+						},
+						leave: function() {
+							$navPanelToggle.addClass('alt');
+						}
+					});
+
+			// No header (home page): switch once the white content reaches the top of the screen,
+			// otherwise the white toggle text disappears against it.
+				else
+					$window
+						.on('scroll.toggle resize.toggle', function() {
+							$navPanelToggle.toggleClass('alt', $main.length > 0 && $main[0].getBoundingClientRect().top < 60);
+						})
+						.trigger('scroll.toggle');
 
 		// Panel.
 			$navPanel = $(
