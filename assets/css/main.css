@@ -6868,11 +6868,96 @@ strong:hover {
 	scale: 120%;
 }
 
-/* Professional journey: extra room on small screens so the last job tab is not hidden */
+/* Professional journey on phones: a swipeable row of job cards above full-width details.
+   The desktop layout relies on inline pixel offsets, hence the !important overrides. */
 @media screen and (max-width: 736px) {
+
 	#block.journey_tabs {
-		height: 50.7rem !important;
+		height: auto !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		background-color: #ffffff !important;
 	}
+
+	#block.journey_tabs .tab {
+		float: none;
+		width: auto !important;
+		height: auto;
+		margin: 0 !important;
+		padding: 0.25rem 1rem 1rem 1rem;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		gap: 0.6rem;
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		scroll-snap-type: x proximity;
+		scrollbar-width: thin;
+	}
+
+	#block.journey_tabs .tab button_new {
+		-moz-flex: 0 0 auto;
+		-webkit-flex: 0 0 auto;
+		-ms-flex: 0 0 auto;
+		flex: 0 0 auto;
+		width: 10.5rem !important;
+		margin: 0 !important;
+		padding: 0.85rem 0.9rem !important;
+		border: 1px solid rgba(0, 0, 0, 0.18);
+		font-size: 0.75rem;
+		line-height: 1.25;
+		white-space: normal;
+		scroll-snap-align: start;
+	}
+
+	#block.journey_tabs .tab button_new.active {
+		background-color: #232423 !important;
+		border-color: #232423;
+	}
+
+	#block.journey_tabs .tab button_new .info_2 {
+		display: block;
+		margin-top: 0.35rem;
+		font-size: 0.65rem;
+	}
+
+	#block.journey_tabs .tabcontent {
+		float: none;
+		width: auto !important;
+		height: auto !important;
+		overflow: visible !important;
+		margin: 0 !important;
+		padding: 1.25rem 1.25rem 2rem 1.25rem !important;
+		border-top: solid 2px rgba(0, 0, 0, 0.12);
+	}
+
+	#block.journey_tabs .tabcontent h2 {
+		margin-top: 0 !important;
+		font-size: 1.1rem;
+	}
+
+	#block.journey_tabs .tabcontent h4 {
+		margin: 0 0 1.25rem 0 !important;
+		font-size: 0.8rem;
+	}
+
+	#block.journey_tabs .tabcontent p {
+		font-size: 0.85rem !important;
+		line-height: 1.8;
+		margin: 0 !important;
+		text-align: left;
+	}
+
+	/* The maps are hidden on small screens (as before), so drop their empty wrapper too */
+	#block.journey_tabs .tabcontent .image.right {
+		display: none;
+	}
+
+	#block.bottom {
+		display: none;
+	}
+
 }
 
 /* Home page: the intro fills the first screen, so the nav and content start just below the fold.
